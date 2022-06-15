@@ -1,5 +1,6 @@
 {
     "name": "ui5-i18n-language-support",
+    "publisher": "lorodialog",
     "displayName": "UI5 i18n Language Support (*.properties) ",
     "description": "Syntax highlighting for UI5 i18n Translation files (*.properties)",
     "version": "0.0.1",
