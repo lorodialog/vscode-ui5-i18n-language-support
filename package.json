@@ -10,16 +10,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "properties",
-            "aliases": ["UI5 i18n", "properties"],
-            "extensions": [".properties"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "properties",
-            "scopeName": "",
-            "path": "./syntaxes/properties.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "properties",
+                "aliases": [
+                    "UI5 i18n",
+                    "properties"
+                ],
+                "extensions": [
+                    ".properties"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "properties",
+                "scopeName": "source.properties",
+                "path": "./syntaxes/properties.tmLanguage.json"
+            }
+        ]
     }
 }
